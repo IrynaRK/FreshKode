@@ -64,7 +64,7 @@ body {
 
 /* first screen */
 .first-screen {
-  background-image: url("./img/Frame\ 12146\ 1.png");
+  background-image: url("./img/Frame121461.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -124,7 +124,7 @@ body {
 }
 
 .mission {
-  background-image: url(./img/Фон\ 5.png);
+  background-image: url(./img/Фон5.png);
   background-repeat: no-repeat;
   display: flex;
 }
