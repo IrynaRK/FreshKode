@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: #7ae5fd;
+  cursor: pointer;
+  padding: 21px 35px;
+  border-radius: 87px;
+  text-transform: uppercase;
+  font-size: 1.125em;
+}
+
+ul {
+  list-style: none;
+}
+
+/* General styles */
+body {
+  font-family: Montserrat;
+  color: #000;
+  font-size: 1em;
+  font-weight: 400;
+}
+/* Header styles */
+.menu {
+  display: flex;
+}
+
+.menu-screen {
+  display: flex;
+}
+.logo {
+}
+
+.menu-list {
+}
+
+.menu-item {
+}
+
+.white-blue-btn {
+  background-color: white;
+}
+.blue-btn {
+  padding: 0;
+  font-weight: 400;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  background-color: #7ae5fd;
+  border-radius: 87px;
+  border: none;
+  padding: 21px 35px;
+}
+
+/* first screen */
+.first-screen {
+  background-image: url("./img/Frame\ 12146\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-position {
+  padding-left: 6.5625em;
+  padding-top: 12.625em;
+  padding-bottom: 12.625em;
+  padding-right: 40.5625em;
+}
+.main-title {
+  font-weight: 800;
+  font-size: 4.06em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.main-description {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+.second-title {
+  font-weight: 400;
+  font-size: 3.75em;
+  text-transform: uppercase;
+}
+.second-discription {
+  font-weight: 400;
+  font-size: 1.6875em;
+}
+
+.second-text,
+.target-text {
+  font-weight: 400;
+  font-size: 1.25em;
+  color: #73a6b1;
+}
+
+.description-item {
+  display: flex;
+}
+.description-title {
+  font-weight: 400;
+  font-size: 2.875em;
+  text-transform: uppercase;
+}
+.description-list {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+.description-text {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+.mission {
+  background-image: url(./img/Фон\ 5.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.mission-text {
+  font-weight: 400;
+  font-size: 1.7;
+  background-color: #f1fdff;
+}
+
+.target {
+}
+.target-title,
+.contacts-title {
+  font-weight: 400;
+  font-size: 3.75em;
+  text-transform: uppercase;
+}
+.target-text {
+}
+.target-item {
+  font-weight: 400;
+  font-size: 1.6875em;
+}
+
+.contacts {
+}
+.contacts-title {
+}
+.contacts-item {
+}
+.contacts-list {
+}
+.contacts-text {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+.contacts-numer {
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.form {
+  display: flex;
+}
+.form-title {
+  font-weight: 400;
+  font-size: 1.6875em;
+}
+.form-item {
+  flex-direction: column;
+}
+.form-list {
+  flex-direction: column;
+}
