@@ -10,17 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./flexbox.html" />
   </head>
   <body>
     <header class="menu">
-      <img src="./img/Subtract.png" alt="логотип" class="logo" />
+      <img src="./img/Subtract.png" alt="логотип" class="logo" width="65" />
       <nav class="menu-screen">
         <ul class="menu-list">
           <li class="menu-item">Контакти</li>
           <li class="menu-item">Головна</li>
           <li class="menu-item">Із чим ми допомагаємо</li>
         </ul>
-        <button class="blue-btn">ПІДТРИМАТИ ФОНД</button>
+        <button class="blue-btn-menu">ПІДТРИМАТИ ФОНД</button>
       </nav>
     </header>
 
@@ -45,8 +46,8 @@
     </section>
 
     <section class="description-screen">
-      <article class="description-item">
-        <div>
+      <article class="description-container">
+        <div class="description-item">
           <h3 class="description-title">Психологічна допомога</h3>
           <h4 class="description-list">
             Ми підбираємо психотерапевта під за індивідуальним запитом
@@ -58,10 +59,16 @@
             проходження особистої терапії та супервізій.
           </p>
         </div>
-        <img src="./img/Картинка.png" alt="психологічна підтримка" />
+        <img
+          class="description-img"
+          src="./img/Картинка.png"
+          alt="психологічна підтримка"
+          width="585"
+          height="424"
+        />
       </article>
-      <article class="description-item">
-        <div>
+      <article class="description-container">
+        <div class="description-item">
           <h3 class="description-title">Реабілітаційний центр</h3>
           <h4 class="description-list">Наш обов'язок — спробувати допомоти</h4>
           <p class="description-text">
@@ -71,10 +78,16 @@
             заклади-партнерів, де швидко та якісно можуть надати допомогу.
           </p>
         </div>
-        <img src="./img/Картинка2.png" alt="реабілітаційна підтримка" />
+        <img
+          class="description-img"
+          src="./img/Картинка2.png"
+          alt="реабілітаційна підтримка"
+          width="585"
+          height="424"
+        />
       </article>
-      <article class="description-item">
-        <div>
+      <article class="description-container">
+        <div class="description-item">
           <h3 class="description-title">Робота з дітьми</h3>
           <h4 class="description-list">
             Зробімо їхнє теперішнє добрим, бо діти — наше майбутнє
@@ -86,7 +99,13 @@
             заклади-партнерів, де швидко та якісно можуть надати допомогу.
           </p>
         </div>
-        <img src="./img/Картинка3.png" alt="робота з дітьми" />
+        <img
+          class="description-img"
+          src="./img/Картинка3.png"
+          alt="робота з дітьми"
+          width="585"
+          height="424"
+        />
       </article>
       <button class="blue-btn">ПІДТРИМАТИ ФОНД</button>
     </section>
@@ -97,6 +116,7 @@
         залишився наодинці зі своїми проблемами
       </p>
       <img
+        class="relative"
         src="./img/smiley-little-kids-holding-each-other.png"
         alt="Діти посміхаються"
       />
@@ -109,10 +129,10 @@
         виплачуємо з коштів грантодавців
       </p>
       <h3 class="target-item">Наша мета 10 000 000 гривень!</h3>
-      <img src="./img/Frame10678.png" alt="діти посміхаються" />
+      <img class="target-img" src="./img/Frame10678.png" alt="збір" />
     </section>
 
-    <footer>
+    <footer class="footer">
       <section class="contacts">
         <h2 class="contacts-title">Контакти</h2>
         <ul class="contacts-item">

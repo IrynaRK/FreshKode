@@ -34,15 +34,21 @@ body {
 /* Header styles */
 .menu {
   display: flex;
+  padding: 2.5em 4.4375em;
+  justify-content: space-between;
 }
 
 .menu-screen {
   display: flex;
+  gap: 1.5em;
 }
 .logo {
 }
 
 .menu-list {
+  display: flex;
+  align-items: center;
+  gap: 3.5em;
 }
 
 .menu-item {
@@ -52,14 +58,10 @@ body {
   background-color: white;
 }
 .blue-btn {
-  padding: 0;
-  font-weight: 400;
-  font-size: 1.125em;
-  text-transform: uppercase;
-  background-color: #7ae5fd;
-  border-radius: 87px;
-  border: none;
-  padding: 21px 35px;
+  margin-top: 3.125em;
+  margin-left: 35em;
+  margin-right: 35em;
+  margin-bottom: 10em;
 }
 
 /* first screen */
@@ -75,7 +77,8 @@ body {
   padding-left: 6.5625em;
   padding-top: 12.625em;
   padding-bottom: 12.625em;
-  padding-right: 40.5625em;
+
+  width: 50%;
 }
 .main-title {
   font-weight: 800;
@@ -85,41 +88,59 @@ body {
 }
 
 .main-description {
-  font-weight: 400;
   font-size: 1.25em;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
 }
 
+.second-screen {
+  padding: 10em 13.625em;
+  text-align: center;
+}
 .second-title {
-  font-weight: 400;
   font-size: 3.75em;
   text-transform: uppercase;
+  padding-bottom: 0.9375em;
 }
 .second-discription {
-  font-weight: 400;
   font-size: 1.6875em;
+  padding-bottom: 0.625em;
 }
 
 .second-text,
 .target-text {
-  font-weight: 400;
   font-size: 1.25em;
   color: #73a6b1;
 }
 
-.description-item {
+.description-container {
   display: flex;
+  background-color: #f1fdff;
+  margin-left: 4.4375em;
+  margin-right: 4.4375em;
+  margin-bottom: 3.125em;
+}
+.description-item,
+.description-img {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  margin-left: 3.875em;
+  margin-right: 3.875em;
+}
+.description-item {
+  padding-top: 5.6875em;
 }
 .description-title {
-  font-weight: 400;
   font-size: 2.875em;
   text-transform: uppercase;
+  padding-bottom: 0.625em;
 }
 .description-list {
   font-weight: 600;
   font-size: 1.25em;
+  padding-bottom: 0.625em;
 }
 .description-text {
-  font-weight: 400;
   font-size: 1.25em;
 }
 
@@ -130,48 +151,80 @@ body {
 }
 
 .mission-text {
-  font-weight: 400;
   font-size: 1.7;
+  padding-top: 5.625em;
+  padding-bottom: 5.625em;
+  padding-left: 3.875em;
+  padding-right: 43.125em;
   background-color: #f1fdff;
+  margin-left: 5.4375em;
+  margin-right: 5.4375em;
+  margin-top: 13.8em;
+  margin-bottom: 8.8em;
+}
+.relative::before {
 }
 
 .target {
+  margin-left: 13.625em;
+  margin-right: 13.625em;
 }
 .target-title,
 .contacts-title {
-  font-weight: 400;
   font-size: 3.75em;
   text-transform: uppercase;
 }
-.target-text {
+.target-title {
+  margin-bottom: 0.9375em;
 }
 .target-item {
-  font-weight: 400;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 1.0625em;
   font-size: 1.6875em;
+  margin-top: 3.125em;
+}
+.target-img {
+  margin-left: 21.5em;
+  margin-right: 21.5em;
+}
+
+.footer {
+  background-color: #f9fadf;
 }
 
 .contacts {
+  display: flex;
+  padding-top: 3.125em;
 }
 .contacts-title {
+  margin-left: 3.7656em;
 }
 .contacts-item {
+  margin-left: 14.14em;
 }
 .contacts-list {
 }
 .contacts-text {
-  font-weight: 400;
   font-size: 1.25em;
+  width: 50%;
+  padding-bottom: 3.5625em;
 }
 .contacts-numer {
   font-weight: 700;
   font-size: 1.25em;
+  padding-bottom: 3.5625em;
 }
 
 .form {
   display: flex;
+  padding: 3.75em;
+  background-color: #ffffff;
+  margin-left: 4.4375em;
+  margin-right: 4.4375em;
+  margin-bottom: 10em;
 }
 .form-title {
-  font-weight: 400;
   font-size: 1.6875em;
 }
 .form-item {
@@ -179,4 +232,5 @@ body {
 }
 .form-list {
   flex-direction: column;
+  margin-right: 3.8125em;
 }
